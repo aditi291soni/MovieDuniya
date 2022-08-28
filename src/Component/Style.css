@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 4vmax;
+    width: 98.8vw;
+    background-color: #032541;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.leftnav{
+    height: 4vmax;
+    margin-left: 20vmin;
+    /* background-color: pink; */
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.logo{
+    height: 4vmax;
+    width: 10vw;
+    color: aqua;
+    /* background-color: aqua; */
+    display: flex;
+
+    font-size: 28px;
+    font-weight: 900;
+    justify-content: space-between;
+    align-items: center;
+}
+.top{
+    height: 40vmin;
+    width: 80vmax;
+    margin-left: 10vmax;
+    /* background-color: aqua; */
+    background-size: cover;
+    background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/oE6bhqqVFyIECtBzqIuvh6JdaB5.jpg");
+
+}
+.top h1{
+    color: white;
+    padding-left: 40px;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Gilroy';
+    
+}
+
+.top h2{
+    color: white;
+    padding-left: 40px;
+    line-height: 20px;
+    font-family: 'Gilroy';
+    font-size: 40px;
+}
+.class{
+    height: 3vh;
+    width: 4.5vw;
+    border-radius: 25px;
+    background-color: #1CB9D8;
+}
+.top input{
+    height: 6vh;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 70vw;
+    position: relative;
+    top:10vh;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.form{
+    height: 30vh;
+}
+.search{
+    height: 6vh;
+    color: white;
+    position: relative;
+    right: 5%;
+    width: 8vw;
+  top:9.8vh;
+    border-radius: 25px;
+    background-image: linear-gradient(#8ACDA3, #1CB9D8);
+    border: none;
+}
+.whatpopular{
+    /* background-color: #1CB9D8; */
+    width: 80vw;
+    margin-left: 10vw;
+    height: 45vh;
+}
+.cards{
+  
+        /* background-color: #7f8384; */
+        width: 80vw;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* margin-left: 10vw; */
+}
+.card{
+    height: 98%;
+    width: 15vw;
+    /* background-color: #032541; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.526);
+    overflow: hidden;
+}
+.text{
+    height: 70%;
+    width: 15vw;
+    background-color: #1CB9D8;
+}
+.card h2{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.movie{
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+.single{
+    height: 80vh;
+    width: 90vw;
+    margin-top: 6vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    background-color: #032541;
+}
