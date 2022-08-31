@@ -1,5 +1,6 @@
 import React from 'react';
 import Whatpopular from './Whatpopular';
+import Top from './Top'
 
 const Home = ({popular,setpopular}) => {
   return (
