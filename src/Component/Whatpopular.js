@@ -1,15 +1,14 @@
 import React from 'react';
 import { useEffect,useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const Whatpopular = () => {
-    const [popular, setpopular] = useState([]);
-    useEffect(() => {
-      fetch(`https://api.themoviedb.org/3/discover/movie?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US `)
-      .then(res=>res.json())
-      .then(data=>setpopular(data.results))
-
-    }, []);
+const Whatpopular = ({popular,setpopular}) => {
     // console.log(popular);
+    const navigate=useNavigate()
+    const idHandler=(i)=>{
+      // console.log(i);
+      navigate(`/tvshow/${i}`)
+    }
   return (
     <div className="whatpopular">
       <h1>What's Popular</h1>
@@ -17,9 +16,10 @@ const Whatpopular = () => {
       <div className="cards">
      
 {
-    popular.map((e)=>(
+    popular.map((e,i)=>(
 
-        <div className="card">
+        <div key={i} onClick={()=>idHandler(e.id)} className="card">
+      
         
 <img src={`https://image.tmdb.org/t/p/original/${e&& e.backdrop_path}`} alt="" />
     </div>

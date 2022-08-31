@@ -12,6 +12,7 @@ img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    background-position: center;
    
 }
 .leftnav{
@@ -144,7 +145,28 @@ a{
     width: 90vw;
     margin-top: 6vh;
     margin-left: 5%;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    background-color: #032541;
+    justify-content: space-around;
+    /* background-color: #032541; */
+    background-image: linear-gradient(rgb(188, 188, 201),rgb(76, 205, 192));
+}
+.img{
+    height: 60vh;
+    width: 22vw;
+    background-color: #9fa5ab;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.task{
+    /* background-color: rgba(110, 214, 214, 0.793); */
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 50px;
+    color: white;
+    
+    
+    width: 55vw;
+    text-align: left;
 }

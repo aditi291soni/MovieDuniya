@@ -1,10 +1,10 @@
 import React from 'react';
 import Single from '../Single';
 
-const TvShow = () => {
+const TvShow = ({popular,setpopular}) => {
   return (
     <div>
-      <Single/>
+      <Single popular={popular} setpopular={setpopular} />
     </div>
   );
 }
