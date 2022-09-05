@@ -10,8 +10,9 @@ const Nav = () => {
 <div className="logo">TMDB <div className="class"></div></div>
 <Link to='/'>Home</Link>
   <Link to='/movie'>Movies</Link>
-  <Link to='/tvshow/:id'>TV shows</Link>
-  <Link to='/people'>People</Link>
+  {/* <Link to='/tvshow/:id'>TV shows</Link> */}
+  <Link to='/tvshow'>TV shows</Link>
+  {/* <Link to='/people'>People</Link> */}
  
 </div>
 <div className="rightnav">

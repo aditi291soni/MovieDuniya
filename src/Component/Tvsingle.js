@@ -1,15 +1,14 @@
-import { computeHeadingLevel } from '@testing-library/react';
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import '../src/Component/Style.css'
+import '../Component/Style.css'
 
-const Single = ({popular,setpopular}) => {
+const Tvsingle = ({tvshows, settvshows}) => {
   // console.log(popular);
   let { id } = useParams();
   return (
     <div className="single">
     {
-      popular.map((elem)=>{
+      tvshows.map((elem)=>{
 
 if(elem.id==id){
   return <>
@@ -36,4 +35,4 @@ if(elem.id==id){
   )
 }
 
-export default Single
+export default Tvsingle

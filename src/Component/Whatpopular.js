@@ -3,11 +3,9 @@ import { useEffect,useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Whatpopular = ({popular,setpopular}) => {
-    // console.log(popular);
-    const navigate=useNavigate()
+      const navigate=useNavigate()
     const idHandler=(i)=>{
-      // console.log(i);
-      navigate(`/tvshow/${i}`)
+            navigate(`/movie/${i}`)
     }
   return (
     <div className="whatpopular">
