@@ -7,7 +7,7 @@ const Nav = () => {
     <>
       <div className="nav">
 <div className="leftnav">
-<div className="logo">TMDB <div className="class"></div></div>
+<div className="logo">MD <div className="class"></div></div>
 <Link to='/'>Home</Link>
   <Link to='/movie'>Movies</Link>
   {/* <Link to='/tvshow/:id'>TV shows</Link> */}

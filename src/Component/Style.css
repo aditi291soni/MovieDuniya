@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: century gothic;
+    font-weight: 300;
 }
 .nav{
     height: 4vmax;
@@ -149,8 +151,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* background-color: black; */
     /* background-color: #032541; */
-    background-image: linear-gradient(rgb(188, 188, 201),rgb(76, 205, 192));
+    background-image: linear-gradient(171.8deg, rgba(5, 111, 146, 1) 13.5%, rgba(6, 57, 84, 1) 78.6%);
+    /* background-image: linear-gradient(rgb(4, 4, 114),rgb(76, 205, 192)); */
 }
 .img{
     height: 60vh;
